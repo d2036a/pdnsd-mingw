@@ -1,13 +1,18 @@
 This is a fork of pdnsd which is a proxy DNS server with permanent caching.
 It adds windows supporting, so you can run it on Windows OS.
 
-#How to compile EXE
+##How to compile EXE
 Compiling only supports for Linux.
+
 Install Mingw
+
 ```apt-get install gcc-mingw32```
+
 Compile
-```autoconf```
-```./configure --target=mingw```
+
+```
+autoconf
+./configure --target=mingw
 ```make```
 
 You can got pdnsd.exe file at root forlder.
