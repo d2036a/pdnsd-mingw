@@ -5,15 +5,16 @@ It adds windows supporting, so you can run it on Windows OS.
 Compiling only supports for Linux.
 
 Install Mingw
-
-```apt-get install gcc-mingw32```
+```
+apt-get install gcc-mingw32
+```
 
 Compile
-
 ```
 autoconf
 ./configure --target=mingw
-```make```
+make
+```
 
 You can got pdnsd.exe file at root forlder.
 
