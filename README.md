@@ -12,7 +12,7 @@ apt-get install gcc-mingw32
 Compile
 ```
 autoconf
-./configure --target=mingw
+./configure --with-target=mingw
 make
 ```
 
