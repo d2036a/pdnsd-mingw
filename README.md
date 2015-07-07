@@ -16,6 +16,6 @@ autoconf
 make
 ```
 
-You can got pdnsd.exe file at root forlder.
+You can get pdnsd.exe file at root forlder.
 
 See http://members.home.nl/p.a.rombouts/pdnsd/doc.html to know how to use.
