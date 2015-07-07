@@ -1,22 +1,15 @@
-You can find the documentation for pdnsd in the doc/ directory. The html
-documentation (which I recommend) is in the doc/html/ subdirectory.
-The pure text documentation (which is generated automatically from the 
-html documentation) is in doc/txt/.
-The following documents are available:
+This is a fork of pdnsd which is a proxy DNS server with permanent caching.
+It adds windows supporting, so you can run it on Windows OS.
 
-index.html / intro.txt		Overview, system requirements
-doc.html / manual.txt		Building, installation and usage instructions
-faq.html / faq.txt		The FAQ
+#How to compile EXE
+Compiling only supports for Linux.
+Install Mingw
+```apt-get install gcc-mingw32```
+Compile
+```autoconf```
+```./configure --target=mingw```
+```make```
 
-Share and enjoy!
-	Thomas <tmoestl@gmx.net>
+You can got pdnsd.exe file at root forlder.
 
-
-For news about recent changes in pdnsd the following files may be of
-interest to you:
-
-	README.par
-	ChangeLog
-	NEWS
-
-Last revised: 08 July 2007 by Paul Rombouts
+See http://members.home.nl/p.a.rombouts/pdnsd/doc.html to know how to use.
